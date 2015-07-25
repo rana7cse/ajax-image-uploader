@@ -17,6 +17,7 @@ function _validImage(file){
 }
 
 function showImage(){
+    _progress_bar.parentNode.setAttribute('class','progress');
     if(_validImage(_img.files[0])){
         var fileRead = new FileReader();
         fileRead.onload = function(e){
@@ -26,6 +27,7 @@ function showImage(){
     }else{
         alert("Please Check Your File Format (jpg,jpeg,png,gif)");
         _img.value = '';
+        _img_output.src = '';
     }
 }
 
