@@ -1,0 +1,25 @@
+{
+  "name": "ajax-image-uploader",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rana7cse/ajax-image-uploader",
+  "authors": [
+    "Salahuddin Rana <rana7cse@gmail.com>"
+  ],
+  "description": "simple image uploader with progress bar",
+  "main": "index.html",
+  "keywords": [
+    "uploader",
+    "bar"
+  ],
+  "license": "POKO",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-css": "~3.3.4"
+  }
+}
